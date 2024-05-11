@@ -17,3 +17,4 @@ const filmes = [
 ]
 
 console.log(filmes.map(e => e.nome))
+console.log(filmes.filter(e=>e.ano>2006))
